@@ -1,4 +1,4 @@
-export default function fibonacci(n : number) {
+export default function fibonacci(n : number) :number{
   if (n < 0) {
     return -1;
   } else if (n == 0) {
